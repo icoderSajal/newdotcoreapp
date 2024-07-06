@@ -36,6 +36,7 @@ export default function Login() {
         .post(values)
         .then((res) => {
           setContext({ participantId: res.data.participantId });
+          alert("User Login Successfully !!!");
           navigate("/quiz");
         })
         .catch((err) => console.log(err));

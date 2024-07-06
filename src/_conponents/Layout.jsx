@@ -9,6 +9,7 @@ export default function Layout() {
 
   const logout = () => {
     resetContext();
+    alert("User Logout Successfully!");
     navigate("/");
   };
 
