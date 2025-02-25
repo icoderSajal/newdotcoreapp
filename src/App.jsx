@@ -8,7 +8,7 @@ import Result from "./_conponents/Result";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter >
         <Routes>
           <Route path="/" element={<Login />} />
           <Route element={<Authenticate />}>
